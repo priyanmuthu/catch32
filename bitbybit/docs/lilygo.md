@@ -251,9 +251,9 @@ Additional local notes:
 
 | Local doc | Purpose |
 | --- | --- |
-| [docs/lilygo/pin-reference.md](docs/lilygo/pin-reference.md) | Focused Pro pin and peripheral reference |
-| [docs/lilygo/first-tests.md](docs/lilygo/first-tests.md) | Minimal serial, buzzer, I2C, encoder, and display-enable tests |
-| [docs/lilygo/sources.md](docs/lilygo/sources.md) | Source links and provenance notes |
+| [lilygo/pin-reference.md](lilygo/pin-reference.md) | Focused Pro pin and peripheral reference |
+| [lilygo/first-tests.md](lilygo/first-tests.md) | Minimal serial, buzzer, I2C, encoder, and display-enable tests |
+| [lilygo/sources.md](lilygo/sources.md) | Source links and provenance notes |
 
 | Source | Link |
 | --- | --- |

@@ -1,0 +1,54 @@
+{
+  "serial": {
+    "baud": 115200
+  },
+  "commandProfiles": [
+    {
+      "id": "audio",
+      "label": "Audio",
+      "kind": "volume",
+      "step": 2
+    }
+  ],
+  "meeting": {
+    "status": "available",
+    "muted": false,
+    "toggleMuteCommand": {
+      "enabled": false,
+      "command": "osascript scripts/toggle-mute.scpt"
+    }
+  },
+  "macros": [
+    {
+      "id": "git_status",
+      "label": "Git Status",
+      "group": "Git",
+      "cwd": "../../..",
+      "enabled": true,
+      "command": "git status --short"
+    },
+    {
+      "id": "test_project",
+      "label": "Run Tests",
+      "group": "Test",
+      "cwd": "../../..",
+      "enabled": false,
+      "command": "npm test"
+    },
+    {
+      "id": "build_project",
+      "label": "Build",
+      "group": "Build",
+      "cwd": "../firmware",
+      "enabled": false,
+      "command": "pio run"
+    },
+    {
+      "id": "open_terminal",
+      "label": "Terminal",
+      "group": "Tools",
+      "enabled": false,
+      "command": "open -a Terminal ."
+    }
+  ]
+}

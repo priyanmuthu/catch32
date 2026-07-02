@@ -1,0 +1,4 @@
+firmware/.pio/
+companion/node_modules/
+companion/config.local.json
+
