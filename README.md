@@ -12,9 +12,15 @@ LILYGO T-Encoder-Pro ESP32-S3 notes and bring-up docs are in:
 Project plans:
 
 - [bitbybit/turnkey/plan.md](bitbybit/turnkey/plan.md)
+- [bitbybit/menuver/docs/plan.md](bitbybit/menuver/docs/plan.md)
 
 TurnKey implementation:
 
 - [bitbybit/turnkey/README.md](bitbybit/turnkey/README.md)
 - [bitbybit/turnkey/docs/protocol.md](bitbybit/turnkey/docs/protocol.md)
 - [bitbybit/turnkey/docs/implementation-notes.md](bitbybit/turnkey/docs/implementation-notes.md)
+
+Menuver:
+
+- [bitbybit/menuver/README.md](bitbybit/menuver/README.md)
+- [bitbybit/menuver/docs/scenarios.md](bitbybit/menuver/docs/scenarios.md)
