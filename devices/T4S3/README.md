@@ -50,6 +50,10 @@ The board is a good fit for:
 
 Important ESP32-S3 capabilities available through the SoC include Wi-Fi, BLE, USB OTG/peripheral support, SPI, I2C, UART, PWM, ADC, touch-capable GPIOs, and deep sleep. The board-level display, touch, PMU, SD slot, and expansion wiring consume several pins, so check the pin map before assigning GPIOs.
 
+## Projects In This Repo
+
+- [FocusFrame](../../focusframe/README.md): simple Pomodoro timer firmware for this device.
+
 ## Software Stack
 
 Recommended path:

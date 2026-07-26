@@ -1,5 +1,15 @@
 # catch32
 
+## Devices
+
+- [LILYGO T4-S3 ESP32-S3 notes](devices/T4S3/README.md)
+
+## FocusFrame
+
+Simple Pomodoro timer firmware for the LILYGO T4-S3:
+
+- [focusframe/README.md](focusframe/README.md)
+
 ## BitByBit
 
 LILYGO T-Encoder-Pro ESP32-S3 notes and bring-up docs are in:
