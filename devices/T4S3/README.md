@@ -53,6 +53,7 @@ Important ESP32-S3 capabilities available through the SoC include Wi-Fi, BLE, US
 ## Projects In This Repo
 
 - [FocusFrame](../../focusframe/README.md): simple Pomodoro timer firmware for this device.
+- [T4-S3 battery back case](../../cases/t4s3-battery-back/README.md): 3D-printable rear case starter model with battery pocket.
 
 ## Software Stack
 

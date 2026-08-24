@@ -10,6 +10,10 @@ Simple Pomodoro timer firmware for the LILYGO T4-S3:
 
 - [focusframe/README.md](focusframe/README.md)
 
+## Cases
+
+- [T4-S3 battery back case](cases/t4s3-battery-back/README.md)
+
 ## BitByBit
 
 LILYGO T-Encoder-Pro ESP32-S3 notes and bring-up docs are in:
