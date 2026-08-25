@@ -1,0 +1,3 @@
+[submodule "inspiration/m5stack-stopwatch-avatar"]
+	path = inspiration/m5stack-stopwatch-avatar
+	url = https://github.com/Trentct/m5stack-stopwatch-avatar
