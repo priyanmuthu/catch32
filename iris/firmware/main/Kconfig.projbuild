@@ -1,0 +1,43 @@
+menu "Iris"
+
+config IRIS_WIFI_SSID
+    string "Wi-Fi SSID"
+    default ""
+    help
+        The 2.4 GHz Wi-Fi network used for time and weather updates.
+        Leave blank to run the clock in offline mode.
+
+config IRIS_WIFI_PASSWORD
+    string "Wi-Fi password"
+    default ""
+    help
+        Wi-Fi password. It is stored in sdkconfig, so keep that file private.
+
+config IRIS_LOCATION_NAME
+    string "Location label"
+    default "Home"
+
+config IRIS_LATITUDE
+    string "Latitude"
+    default "37.7749"
+    help
+        Decimal latitude used for the Open-Meteo request.
+
+config IRIS_LONGITUDE
+    string "Longitude"
+    default "-122.4194"
+    help
+        Decimal longitude used for the Open-Meteo request.
+
+config IRIS_TIMEZONE
+    string "IANA timezone"
+    default "America/Los_Angeles"
+    help
+        POSIX TZ database name used to render local time.
+
+config IRIS_BRIGHTNESS
+    int "Display brightness"
+    range 5 100
+    default 65
+
+endmenu
